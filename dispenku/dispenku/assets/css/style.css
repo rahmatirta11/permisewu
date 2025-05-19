@@ -1,0 +1,196 @@
+/* Dark Theme Styles */
+body {
+    background: linear-gradient(135deg, #0f1729 0%, #1a2942 100%);
+    color: white;
+    min-height: 100vh;
+}
+
+/* Container Styles */
+.main-container {
+    padding: 30px;
+}
+
+/* Card Styles */
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.card-header {
+    background: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+/* Form Styles */
+.form-control, .form-select {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #000;
+    padding: 12px;
+}
+
+.form-control:focus, .form-select:focus {
+    background: #ffffff;
+    border-color: rgba(59, 130, 246, 0.5);
+    color: #000;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.25);
+}
+
+.form-control::placeholder {
+    color: #666;
+}
+
+.form-select option {
+    background: #ffffff;
+    color: #000;
+}
+
+/* Button Styles */
+.btn-primary {
+    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+    border: none;
+    padding: 12px 24px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+}
+
+/* Sidebar Styles */
+.sidebar {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.sidebar .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    padding: 12px 20px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.sidebar .nav-link:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.sidebar .nav-link.active {
+    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+    color: white;
+}
+
+.sidebar .nav-link i {
+    margin-right: 10px;
+}
+
+/* Logo Styles */
+.mountain-logo {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px 0;
+}
+
+.mountain-logo i {
+    font-size: 40px;
+    background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Table Styles */
+.table {
+    color: white;
+}
+
+.table thead th {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.table td {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Stats Card Styles */
+.stats-card {
+    background: rgba(59, 130, 246, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.stats-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.stats-card p {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    color: #3b82f6;
+}
+
+/* Login Styles */
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login-header h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.login-header p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Badge Styles */
+.badge {
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.badge-pending {
+    background: rgba(234, 179, 8, 0.2);
+    color: #fbbf24;
+}
+
+.badge-approved {
+    background: rgba(34, 197, 94, 0.2);
+    color: #4ade80;
+}
+
+.badge-rejected {
+    background: rgba(239, 68, 68, 0.2);
+    color: #f87171;
+} 
